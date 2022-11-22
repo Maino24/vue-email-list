@@ -11,13 +11,11 @@
 <body>
     
     
-    <div class="container-fluid text-center" id="app">
-        <button @click="esegui">
-            Genera
-        </button>
+    <div class="" id="app">
+        
         <ul>
-            <li >
-            {{array}} 
+            <li v-for="(elem, index) in array">
+                {{elem}}
             </li>
         </ul>
 
